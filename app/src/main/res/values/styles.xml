@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button">
+        <item name="cornerRadius">10dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+    <style name="Button.Menu">
+        <item name="android:textColor">@color/menu_button_text</item>
+        <item name="android:textSize">30sp</item>
+        <item name="backgroundTint">@color/menu_button_background</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+    </style>
+    <style name="Square">
+        <item name="android:background">@drawable/ic_square_background</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_margin">6dp</item>
+    </style>
+</resources>
